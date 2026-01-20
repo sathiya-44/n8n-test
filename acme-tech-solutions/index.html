@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Acme Tech Solutions — Innovating the Future of AI</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo" aria-label="Acme Tech Solutions">
+        <span class="logo-mark" aria-hidden="true">A</span>
+        <span class="logo-name">Acme Tech Solutions</span>
+      </div>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1 class="site-title">Acme Tech Solutions</h1>
+        <p class="tagline">Innovating the Future of AI</p>
+        <a class="cta" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h2>About Us</h2>
+      <p>Acme Tech Solutions is a technology company specializing in AI-driven enterprise software that enhances business efficiency.</p>
+    </section>
+
+    <section id="services" class="services container">
+      <h2>Services</h2>
+      <div class="services-grid">
+        <article class="service-card">
+          <h3>AI Consulting</h3>
+          <p>Strategic guidance to adopt and scale AI across your organization.</p>
+        </article>
+        <article class="service-card">
+          <h3>Data Analytics</h3>
+          <p>Transform raw data into actionable insights to drive better decisions.</p>
+        </article>
+        <article class="service-card">
+          <h3>Automation Solutions</h3>
+          <p>Automate workflows and processes to increase efficiency and reduce costs.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Contact</h2>
+      <p>Reach us at <a href="mailto:info@acmetech.com">info@acmetech.com</a></p>
+
+      <form id="contact-form" class="contact-form">
+        <label for="name">Name
+          <input id="name" name="name" type="text" required>
+        </label>
+
+        <label for="email">Email
+          <input id="email" name="email" type="email" required>
+        </label>
+
+        <label for="message">Message
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </label>
+
+        <div class="form-actions">
+          <button type="submit" class="btn">Send Message</button>
+        </div>
+
+        <p id="form-note" class="form-note" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>&copy; 2026 Acme Tech Solutions</small>
+    </div>
+  </footer>
+</body>
+</html>
